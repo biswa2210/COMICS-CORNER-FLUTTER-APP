@@ -40,7 +40,7 @@ This comic corner E-Commerce android or iOS application is for comic lovers. It'
 
 ## COMIC CORNER DEMO VIDEO: :point_right: <a href="">Click here to watch</a>
 
-## FLUTTER PLAYLIST: :point_right: <a href="">Click here to watch</a>
+## FLUTTER PLAYLIST: :point_right: <a href="https://www.youtube.com/playlist?list=PL0lbDlMJ1h4hiexZec5cbgw8a3F8dE1HH">Click here to watch</a>
 
 ## COOL-CAB APP DOWNLOAD LINK : :point_right: <a href="" download>Click here to download</a>
 
