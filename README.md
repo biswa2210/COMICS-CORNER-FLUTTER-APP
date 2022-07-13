@@ -32,7 +32,7 @@
 <a href="https://github.com/biswa2210/biswa2210" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="" height="30" width="40" /></a>
 </p>
 
-## About Cool Cab App :point_down: 
+## About COMIC CORNER App :point_down: 
 
 <div align="justified">
  
@@ -42,7 +42,7 @@ This comic corner E-Commerce android or iOS application is for comic lovers. It'
 
 ## FLUTTER PLAYLIST: :point_right: <a href="https://www.youtube.com/playlist?list=PL0lbDlMJ1h4hiexZec5cbgw8a3F8dE1HH">Click here to watch</a>
 
-## COOL-CAB APP DOWNLOAD LINK : :point_right: <a href="https://drive.google.com/file/d/16yDRVa7zAQaQPI7maGc7us4-qEvOGAwD/view" download>Click here to download</a>
+## COMIC CORNER APP DOWNLOAD LINK : :point_right: <a href="https://drive.google.com/file/d/16yDRVa7zAQaQPI7maGc7us4-qEvOGAwD/view" download>Click here to download</a>
 
 </div>
 
@@ -56,47 +56,68 @@ I have made this app for comic-lovers and those who want to explore comics for a
 
 ## Folder Structure :point_down:
 ```bash
-Cool_Cab-Flutter
-       ├── assets
-       |     └── fonts
-       |           └── all fonts
-       |     └── icons
-       |           └── all features' icons
-       |     └── images
-       |           └── all companies' logos
+COMIC-CORNER-FLUTTER-APP
        └── lib 
-             ├── database
-             |     ├── Car.dart
-             |     ├── Company.dart
-             |     └── db.dart
-             ├── datamodels
-             |     └── address.dart
-             ├── dataprovider
-             |     └── appdata.dart
-             ├── screens
-             |     ├── AboutPg.dart
-             |     ├── CompanyCarlist.dart
-             |     ├── CompanyDetail.dart
-             |     ├── ComparisonSc.dart
-             |     ├── allCars.dart
-             |     ├── Car_details.dart
-             |     ├── ContactUs.dart
-             |     ├── favourites.dart
-             |     ├── googleSignIn.dart
-             |     ├── loginpg.dart
-             |     ├── myhomepg.dart
-             |     ├── profile.dart
-             |     ├── registration.dart
-             |     ├── resetPass.dart
-             |     ├── searchCompany.dart
-             |     └── searchpage.dart
-             ├── widgets
-             |     ├── BrandDevidder.dart
-             |     ├── DrawerItemStyle.dart
-             |     └── ProgressBar.dart
-             ├── MLP.dart
-             ├── globalApiKey.dart
-             ├── helpers.dart
+             ├── consts_flutter_ecom
+             |     └── theme_data.dart
+             ├── globalmethods
+             |     ├── PaymentIntegration.dart
+             |     └── service_provide.dart
+             ├── inner_screens_flutter_ecom
+             |     ├── brands_navigation_railcopy_flutter_ecom.dart
+             |     ├── brands_rail_widget_flutter_ecom.dart
+             |     ├── categories_feeds.dart           
+             |     └── product_details_flutter_ecom.dart
+             ├── models
+             |     ├── cart_attr.dart
+             |     ├── fav_attribute_biswa2210.dart
+             |     ├── order_attr.dart
+             |     └── product.dart
+             ├── Provider_flutter_ecom
+             |     ├── darkTheme_setup.dart
+             |     ├── fav_provider_biswa2210.dart
+             |     ├── orders_provider.dart
+             |     ├── products_setup.dart
+             |     └── Provider_for_cart.dart
+             ├── screens_flutter_ecom
+             |     ├── auth
+             |     |    ├── forgetPassword.dart
+             |     |    ├── login.dart
+             |     |    └── signup.dart
+             |     ├── Cart
+             |     |    ├── CartFullpage.dart
+             |     |    ├── CartPgScreen.dart
+             |     |    └── emptyCart.dart
+             |     ├── flutter_ecom_orders
+             |     |    ├── order.dart
+             |     |    ├── order_empty.dart
+             |     |    └── order_full.dart
+             |     ├── wishlist
+             |     |    ├── Wishlist_flutter_ecom.dart
+             |     |    ├── Wishlist_empty_screen(flutter_ecom).dart
+             |     |    └── Wishlist_full_flutter_ecom.dart
+             |     ├── Bottombar.dart
+             |     ├── SearchPgScreen.dart
+             |     ├── VerificationScreen.dart
+             |     ├── app_properties.dart
+             |     ├── feedScreen.dart
+             |     ├── feeds_dialogue_fecom.dart
+             |     ├── homePgScreen.dart
+             |     ├── landing_page.dart
+             |     ├── main_screen.dart
+             |     ├── PhoneVerificationPg.dart
+             |     ├── upload_product_from.dart
+             |     ├── user_details_pg.dart
+             |     └── user_state.dart
+             ├── sharedPrefs
+             |     └── sharedprefs_darkTheme_set.dart
+             ├── widgets_flutter_ecom
+             |     ├── backlayer_flutter_ecom.dart
+             |     ├── categories_flutter_ecom.dart
+             |     ├── categories_flutter_ecom.dart
+             |     ├── feeds_product.dart
+             |     ├── popular_products.dart
+             |     └── searchby_header.dart
              └── main.dart         
  ```                      
 
